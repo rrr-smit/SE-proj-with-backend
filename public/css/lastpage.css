@@ -1,0 +1,38 @@
+
+body{
+    padding-left:4rem;
+}
+.heading{
+    text-align:center;
+    margin-top:1rem;
+    margin-bottom:5rem;
+    font-weight: 500;
+    font-family: cursive;
+    font-size:3rem;
+
+}
+.sub{
+    display:inline-block;
+    width:45%;
+    text-align: center;
+    margin:1rem;
+    border:rgb(31, 34, 82) dotted 0.15rem;
+    border-radius:10%;
+   
+}
+img{
+    display:inline-block;
+    width:5rem;
+    position:relative;
+    left:5rem;
+}
+h3{
+    display:inline-block;
+    width:45%;
+    position:relative;
+    bottom:2rem;
+    left:2rem;
+}
+.last{
+    text-align: center;
+}

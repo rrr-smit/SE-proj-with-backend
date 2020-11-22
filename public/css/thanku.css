@@ -1,0 +1,18 @@
+.content{
+    font-family:cursive;
+    margin-top:3.5rem;
+    
+}
+.content img{
+    width:10rem;
+    border-radius: 50%;;
+}
+button{
+    background-color: rgba(22, 21, 21, 0.856);
+    color:rgba(255, 255, 255, 0.959);
+    border-radius:7%;
+    width:10rem;
+    height:3rem;
+    font-family: cursive;
+    border:none;
+}
