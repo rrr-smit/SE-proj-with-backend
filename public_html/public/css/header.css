@@ -1,0 +1,29 @@
+body{
+    text-align:center;
+    padding:0 2.5rem;
+    background-color: rgba(245, 245, 245, 0.959);
+   
+}
+nav li{
+    display:inline-block;
+    margin:0 2rem;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:black;
+}
+nav span{
+    font-size: 1.5rem;
+}
+.brand{
+    width:7rem;
+}
+.navatt{
+    font-family: cursive;
+    position: relative;
+    bottom:3rem;
+}
+ul{
+    margin:0;
+}

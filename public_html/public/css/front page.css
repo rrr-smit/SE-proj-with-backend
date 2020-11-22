@@ -1,0 +1,81 @@
+.intro{
+    background-image: url('../images/front.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    font-family: cursive;
+    padding:12.7rem 0;
+    border-radius:2%;
+    margin:0 1rem;
+}
+.intro h1{
+    font-size: 3rem;
+}
+.intro h2{
+    font-size: 2rem;
+}
+.services img{
+    width:25rem;
+    border-radius: 3%;
+}
+.services{
+    box-shadow:4px 4px 4px 4px  rgba(44, 45, 48, 0.322);
+    border-radius: 3%;
+    padding:1rem 0;
+    margin: 1.5rem auto;
+}
+.services h3{
+    display:inline-block;
+    width:37%;
+    font-size: 2.4rem;
+    font-family: "Lucida calligraphy";
+    color:rgb(65, 65, 73);
+    position:relative;
+    bottom:5rem;
+    padding:0 3rem;
+    margin:2rem;
+}
+.services h2{
+    font-size: 3rem;
+    font-family:cursive;
+    margin-top:3rem;
+    font-weight:450;
+}
+.footer img{
+    width:2.5rem;
+    margin:2rem 1rem;
+}
+.footer form{
+    display:inline-block;
+    width:45%;
+}
+.footer button{
+    background-color: rgba(22, 21, 21, 0.856);
+    color:rgba(255, 255, 255, 0.959);
+    border-radius:7%;
+    width:10rem;
+    height:3rem;
+    font-family: cursive;
+    border:none;
+}
+.footer a{
+    text-decoration: none;
+    color:rgb(29, 26, 26);
+    margin:0 4rem;
+    font-family:cursive;
+    position:relative;
+    bottom:3rem;
+}
+.footer h3{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.footer{
+    box-shadow:4px 4px 4px 4px  rgba(44, 45, 48, 0.322);
+    padding:1rem 0;
+    margin: 1.5rem auto;
+    border-radius: 1.5% 1.5% 0 0;
+    
+}

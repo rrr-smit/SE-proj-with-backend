@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Personal Assistant</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header" class="">
+				<h1><a href="#">Personal Assistant</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="/logout">Home</a></li>
+						<li><a href="/signup" class="button special">Sign Up</a></li>
+                                                
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" >
+                <div>
+                    <img class="image avatar" src="images/avatar.png" alt="Avatar">
+                </div>
+                
+                
+                <div class="container" style="width: 50%;">
+                    
+                    <h1>Login</h1><hr/>
+                    <label class="<%=clss%>" name="errormssg" style="color: red; font-size: 20px;"><%=errormssg%></label><br/>
+                <form action="/login" method="POST" autocomplete="off">
+                    
+                    <label for="username" ><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="username" required>
+
+                    <br><label for="password"><b>Password</b></label>
+                     <input type="password" placeholder="Enter Password" name="password" required>
+
+                     <br><button class="button small" type="submit" >Login</button><br>
+                
+                   
+                
+                </form>
+                </div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row double">
+						<div class="6u">
+							<div class="row collapse-at-2">
+								<div class="6u">
+									<h3>Other links</h3>
+									<ul class="alt">
+										<li><a href="#">Link 1</a></li>
+										<li><a href="#">Link 2</a></li>
+										<li><a href="#">Link 3</a></li>
+										<li><a href="#">Link 4</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="6u">
+							<h2>Place Holder Text</h2>
+							<p>Place Holder desc</p>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="copyright">
+						<li>&copy; Personal Assistant .2020.</li>
+						<li>Design: <a href="#">Placeholder</a></li>
+						<li>Images: <a href="#">Placeholder</a></li>
+					</ul>
+				</div>
+			</footer>
+
+	</body>
+</html>
