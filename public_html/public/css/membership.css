@@ -1,0 +1,42 @@
+.content{
+    
+    border-radius: 3%;
+    padding:1rem 4rem;
+    margin: 1.5rem auto;
+    display:inline-block;
+    box-shadow:4px 4px 4px 4px  rgba(44, 45, 48, 0.322);
+    background-color: white;
+    font-family: cursive;
+   
+}
+.content input{
+    display:inline-block;
+    width:25rem;
+    height:2.7rem;
+    border-radius: 4%;
+    background-color: rgba(255, 255, 255, 0.842);
+    font-size: 1rem;
+    margin:1rem;
+    border:solid rgba(41, 37, 37, 0.274) 0.1rem;
+}
+button{
+    width:10rem;
+    height:3rem;
+    margin:1.5rem;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.719);
+    border:0;
+    border-radius: 5%;
+    margin-bottom:2.5rem;
+
+}
+.error{
+    display:inline-block;
+    background-color: rgba(231, 181, 181, 0.63);
+    border:none;
+    width:25rem;
+    height:3rem;
+    margin:0.7rem;
+    padding:0.9rem;
+    font-size:1.2rem;
+}

@@ -1,0 +1,26 @@
+.footer img{
+    width:2.5rem;
+    margin:2rem 1rem;
+    margin-bottom:0.5rem;
+}
+.footer a{
+    text-decoration: none;
+    color:rgb(29, 26, 26);
+    margin:0 4rem;
+    
+    position:relative;
+    bottom:2rem;
+}
+.footer h1{
+    
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom:0;
+}
+.footer{
+    font-family: cursive;
+    padding:1rem 0;
+    margin: 1rem auto;
+    border-radius: 1.5% 1.5% 0 0;
+    
+}
