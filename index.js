@@ -221,7 +221,7 @@ res.render("login",{clss:"error",errormssg:"login First"})
 
 
 
-//add new route
+//task manager
 app.get('/taskm', function(req, res) {
   res.header('Cache-Control','no-cache, private, no-store, must-revalidate, max-stale=0, post-check=0, pre-check=0')
   if(req.isAuthenticated())
@@ -230,7 +230,7 @@ app.get('/taskm', function(req, res) {
   res.render("login",{clss:"error",errormssg:"login First"})
 });
 
-
+// add new route
 
 //listening on port 3000
 app.listen(PORT,function(){
